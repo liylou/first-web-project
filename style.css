@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+ 
+li {
+  color: #14213D;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin: right;
+   
+
+}
+
+h1 {
+    color:black;
+    font-size: 100px;
+    font-weight:200;
+    text-align: center;
+    font-family: 'Tangerine', sans-serif;
+}
+
+h2 {
+    color: black;
+    font-family: "Courier New", serif;
+    text-align: center;
+}
+
+h3 {
+    color:black;
+    font-family: "Courier New", serif;
+    font-style:italic;
+    text-align: center;
+}
+<!--not yet-->
+body {
+    background-image: url("http://www.punmiris.com/himg/o.13932.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{ text-align: center;
+
+}
+
