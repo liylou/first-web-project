@@ -16,7 +16,11 @@ body {
     background-size:cover;
 }
 
+
+
+
 .about {
+    image-resolution: 25px;
     padding: 50px 70px;
    padding-left:40px;
     padding-right:40px;
@@ -25,13 +29,18 @@ body {
     color: #ffffff;
     font-size: 16px;
     position:relative;
-    left:200px;
+     left:200px;
     top:150px;
     background-color:#020452;
+   background-image: url("http://www.purdue.edu/uns/images/dudareva.scent.jpeg");
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+   font-family: 'Playfair Display', serif;
     outline: none;
     display:inline-flex;
     justify-content: center;
-    opacity: 0.5;
+    opacity: 0.8;
   border-radius:50%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.80);
    
@@ -48,11 +57,16 @@ body {
     right:90px;
     top:400px;
     background-color:#020452;
+    background-image: url("http://photos2.meetupstatic.com/photos/event/d/d/e/1/600_444656801.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  font-family: 'Playfair Display', serif;
     outline: none;
     display:inline-flex;
     justify-content: center;
    border-radius:50%;
-     opacity: 0.5;
+     opacity: 0.8;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.80);
     }
 
@@ -64,14 +78,19 @@ body {
     color: #ffffff;
     font-size: 16px;
     position:relative;
+   font-family: 'Playfair Display', serif;
     left:200px;
     top:150px;
     border-radius:50%;
     background-color:#020452;
+    background-image:url("https://hammer.ucla.edu/fileadmin/_processed_/csm_IAO_OpenSession3_7ab7b18eb0.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     outline:none;
     display:inline-flex;
     justify-content: center;
-     opacity: 0.5;
+    opacity: 0.8;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.80);
   
     
@@ -84,26 +103,30 @@ padding-left:1px;
     padding-right:1px;
     padding-top:60px;
     padding-bottom:60px;
+transition-duration: 2s;
 color: #124559;
 font-size: 25px;
-    font-family:inherit;
+    font-family: 'Playfair Display', serif;
 position:relative;
 right:100px;
 top:400px;
 border-radius:50%;
 background-color:#020452;
-outline: none;
+background-image:url("http://quaintrellism.net/wp-content/uploads/2016/06/Signature-scent1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: none;
 display:inline-flex;
 justify-content: center;
-opacity: 0.5;
+opacity: 0.8;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.80);
     
    
 }
 
 
-
-
+s
 
  
  #social-fb:hover {
@@ -160,5 +183,9 @@ body {
 }
 
 
-
+.
+body {
+  background-color: #212121;
+  text-align: center;
+}
 
